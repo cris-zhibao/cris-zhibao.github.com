@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta charset="UTF-8">
+    <title>丽枫酒店</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/sdc_home.css">
+    <link rel="stylesheet" href="../css/GameDescription.css">
+</head>
+<body>
+
+<div class="loading">
+    <p></p>
+</div>
+
+<div class="sdc_box">
+    <img src="../img/sdc_home.png" alt="" class="sdc_home">
+    <img src="../img/sdc_hua1.png" alt="" class="sdc_hua1">
+    <img src="../img/sdc_hua2.png" alt="" class="sdc_hua2">
+    <img src="../img/sdc_hua3.png" alt="" class="sdc_hua3">
+    <img src="../img/sdc_wen1.png" alt="" class="sdc_wen1">
+    <img src="../img/sdc_wen2.png" alt="" class="sdc_wen2">
+    <img src="../img/sdc_wen3.png" alt="" class="sdc_wen3">
+    <img src="../img/go.png" alt="" class="sdc_btn" onclick="play()">
+</div>
+
+
+<div class="agree" style="height: 100%; width: 100%;">
+    <div class="Explain_box">
+    <div class="contet_d">
+     <div class="Game">
+        <div class="Game_text">
+            <span class="title_span">玩游戏,发现自在线索,赢好礼,</span>
+            <p>进入小游戏页面，寻找画面中的麗枫“自在睡眠线索”。</p>
+            <p>成功找出7个以上麗枫“自在线索”的小伙伴,将获得1次抽取大奖的机会！</p>
+            <p>奖品随机抽取，抽完为止。</p>
+        </div>
+         <div class="Game_text matop">
+             <span class="title_span">什么是麗枫“自在线索”？</span>
+             <p>也许是柔和的灯光，也许是舒适的家具，也许是怡人的香气……TA们的存在，只为让你睡得自在。</p>
+             <p>一切，得你探索和发现。</p>
+         </div>
+         <div class="Game_text matop">
+             <span class="title_span">什么是麗枫“自在线索”？</span>
+             <p>进入小游戏页面，寻找画面中的麗枫“自在睡眠线索”。</p>
+             <p>成功找出7个以上麗枫“自在线索”的小伙伴,将获得1次抽取大奖的机会！</p>
+             <p>奖品随机抽取，抽完为止。</p>
+         </div>
+         <div class="Game_text matop">
+             <span class="title_span">奖品清单：</span>
+             <p>一等奖（5名）：梦百合枕头1个</p>
+             <p>二等奖（5名）：are aroma 藤条香薰1个</p>
+             <p>三等奖（10名）：perfume/衍馥薰衣草水面膜一袋6片</p>
+             <p>四等奖（20名）：10元住房折扣劵1张</p>
+
+         </div>
+         <div class="Game_text matop">
+             <span class="title_span">奖品清单：</span>
+             <p>2017年3月21日至3月31日</p>
+             <p>兑奖方式：</p>
+             <p>兑换一、二、三等奖：请在中奖页面准确填写真实的姓名、联系电话、收件地址</p>
+             <p>兑换四等奖：请在中奖页面准确填写绑定铂涛会会员的手机号</p>
+         </div>
+         <div class="Game_text matop">
+             <span class="title_span">奖品注意事项：</span>
+             <p>获奖者需在2017年3月31日前进行兑奖，逾期失效：</p>
+             <p>10元住房折扣劵为虚拟电子劵，将于4月1日统一发至获奖者的铂涛会会员账户中；优惠券自获得之日起，有效期90天，每个订单可用1张；优惠券可在预定预付价时使用；使用优惠券预定如取消订单；优惠券在24小时内返回；使用优惠券减免的金额不可开具发票；</p>
+             <p>实物奖品将于4月1日通过快递统一寄出，奖品准确送达时间以物流实际情况为准。</p>
+         </div>
+         <div class="Game_text matop">
+             <span class="title_span">条款及细则 ：</span>
+            <p>-如由于中奖人信息填写错误造成奖品延迟送达或投递失败，麗枫酒店概不负责</p>
+             <p>-每个兑换信息只可兑换一次奖品</p>
+             <p>-礼品恕不兑换作现金或其他礼品，并不设退换</p>
+             <p>-参加者同意其相关信息作为麗枫酒店推广活动使用</p>
+         </div>
+     </div>
+
+    </div>
+        <a href="index.html"><img src="../img/biao.png" class="Return_left"></a>
+        <a href="game.html"><img src="../img/biap.png" class="Run_right"></a>
+    </div>
+</div>
+
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+   
+    function play(){
+        $('.agree').fadeIn();
+        $('.sdc_box').fadeOut();   
+
+        $(".Return_left").animate({
+            left:"1.65rem",
+        },1000)
+        $(".Run_right").animate({
+            right:"1.65rem"
+        },1000) 
+    }
+
+    function firstPlay(){
+         $('.sdc_hua1').animate({left:"-1.425rem"},2000);
+        $('.sdc_hua2').animate({right:"-0.7125rem"},2000);
+        $('.sdc_hua3').animate({left:"11.1rem",opacity:"1"},4000);
+        $('.sdc_wen1').animate({top:"6.25rem"},2000);
+            // .animate({width:"9.25rem",height:"2.475rem"},2000);
+        $('.sdc_wen2').animate({top:"8.7rem"},2000);
+            // .animate({width: "14.35rem",height:"2.475rem"},2000);
+        $('.sdc_wen3').animate({opacity:"1"},3000);
+
+        setTimeout(function(){
+            $('.sdc_btn').animate({opacity:1},2000);
+        },3000);
+    }
+   
+
+    ;(function(win,doc){
+        function fnSize(){
+            doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/320+'px';
+        }
+        fnSize();
+        win.addEventListener('resize',fnSize,false);
+    })(window,document);
+
+    //资源加载：
+    var sourceArr=[
+        'sdc_hua1',
+        'sdc_hua2',
+        'sdc_home',
+        'base',
+        'bgc',
+        'congratulation',
+        'sdc_logo',
+        'sdc_wen1',
+        'sdc_wen2',
+        'sdc_wen3',
+        'go',
+        'biao',
+        'biap',
+        '6',
+        'asdfgsd_03',
+        'next',
+        'fdf2_03',
+        'sdc_wen3',
+        'sdfg_03',
+        'v_flower1',
+        'pity',
+        'tbl',
+        't0',
+        't1',
+        't2',
+        't3',
+        't4',
+        'toliet',
+        'tv_shadow',
+        'v_bed',
+        'wu',
+        'maoyi',
+        'gapnew',
+        'Leaf'
+    ];
+
+    var iCount=0;
+    for(var i=0; i<sourceArr.length;i++){
+        var oImg=new Image();
+        oImg.src='../img/'+sourceArr[i]+'.png';
+        oImg.onload=function(){
+            iCount++;
+            var scale=iCount/sourceArr.length;
+             $('.loading p').html(parseInt(scale*100)+'%');
+
+            if(scale==1){
+               $('.loading').hide();
+               $('.sdc_box').fadeIn(); 
+               firstPlay();
+            }
+        }
+    }
+</script>
+</body>
+</html>

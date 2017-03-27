@@ -1,0 +1,57 @@
+html, body {
+  height: 100%; }
+
+.v_tail {
+  width: 100%;
+  height: 100%;
+  background: url("../img/v_back_2.png") no-repeat;
+  background-size: 100% 100%;
+  position: relative; }
+  .v_tail .v_picture2 {
+    width: 12.4rem;
+    height: 2.3rem;
+    position: absolute;
+    left: 14.6rem;
+    top: 8rem; }
+  .v_tail .v_picture3 {
+    width: 15rem;
+    height: 2.05rem;
+    position: absolute;
+    left: -15rem;
+    top: 10.2rem; }
+  .v_tail .v_picture4 {
+    width: 4.5rem;
+    height: 1.05rem;
+    opacity: 0;
+    position: absolute;
+    left: 6rem;
+    top: 12.2rem; }
+  .v_tail .v_picture5 {
+    width: 2.5rem;
+    height: 6.45rem;
+    position: absolute;
+    left: 2rem;
+    top: 13rem;
+    opacity: 0; }
+  .v_tail .v_picture6 {
+    width: 0.1rem;
+    height: 3.25rem;
+    position: absolute;
+    left: 5.7rem;
+    top: 15rem; }
+  .v_tail .v_picture7 {
+    width: 7rem;
+    height: 5.5rem;
+    margin-top: 1rem;
+    position: absolute;
+    left: 6.4rem;
+    top: 16.4rem;
+    opacity: 0; }
+  .v_tail .v_flower_1 {
+    width: 2.2rem;
+    height: 4.55rem;
+    position: absolute;
+    left: -2.2rem;
+    top: 9rem; }
+
+/*# sourceMappingURL=v_tail.css.map */

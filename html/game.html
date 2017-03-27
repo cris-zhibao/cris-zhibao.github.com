@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title></title>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/game.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<!-- 代码部分begin -->
+<div class="page">
+    <div class="pinch-zoom">
+           <div class="ch_img">
+               <div class="ch_kq">
+                   <div class="ch_btn1">
+                       </div>
+                   <p class="lxq_Aromatherapy">
+                       特调薰衣草清香，有助睡眠
+                   </p>
+                   <div class="btn"></div>
+                   </div>
+               <div class="ch_kq2">
+                   <div class="ch_btn1">
+                   </div>
+                   <p class="lxq_AirCleaner">
+                       模拟森林空气净化系统，生成负离子，带来清新感受
+                   </p>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_my">
+                   <div class="ch_btn1">
+                   </div>
+                   <p class="lxq_T-shirts">
+                       麗枫自主研发的睡眠T恤，柔软轻薄，贴身舒适
+                   </p>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_cd">
+                   <img src="../img/cd.png" alt="" class="ch_btn1">
+                   <p class="lxq_mattress">
+                       睡眠专家品牌慕思专为麗枫提供的床垫，超过中国90%床品品质
+                   </p>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_lamp_box bd">
+                   <div class="ch_lame"></div>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_lamp_box bd2">
+                   <div class="ch_lame"></div>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_lamp_box ch_td">
+                   <div class="ch_lame"></div>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_lamp_box ch_td2">
+                   <div class="ch_lame"></div>
+                   <div class="btn"></div>
+               </div>
+               <div class="ch_lamp_box ch_tv">
+                   <div class="ch_lame"></div>
+                   <div class="btn"></div>
+               </div>
+               <!--chuanglian -->
+              <div class="ch_cl">
+                   <img src="../img/cd.png" alt="chuanlian">
+               </div>
+
+               <div class="ch_cl_btn">
+                   <p class="lxq_ElectricCurtains">
+                       不用离开床，在床头即可控制窗帘开关
+                   </p>
+               </div>
+               <div class="ch_ms_btn">
+                   <p class="lxq_LightingMode">
+                       四种房间灯光模式，照明/阅读/电视/睡眠，随心所欲！
+                   </p>
+               </div>
+               <!--audio-->
+               <div class="ch_audio">
+                   <p class="lxq_music">
+                       麗枫特有的4种助眠音乐，海浪/风声/虫鸣/溪流
+                   </p>
+                   <audio class="ch_aud" src="../music/1.mp3"></audio>
+               </div>
+
+           </div>
+    </div>
+
+
+
+  <div  class="qk_door"> 
+  </div>
+</div>
+
+<!-- 卫生间代码 -->
+<div class="big_box">
+ <div class="qk_click"></div>
+  <div class="qk_gapbox">
+    <img class="qk_cap" src="../img/gapnew.png">
+   </div>
+   <img class="qk_fog" src="../img/wu.png">
+    
+    <div class="qk_rclick">
+      
+    </div>
+    <img class="qk_gif" src="../img/v_shower_2.gif">
+
+    <audio class="qk_audio" src="../music/6.mp3"></audio>
+
+    <p class="qk_back">点击回到客厅</p>
+</div>
+
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/game.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        ;(function(win,doc){
+            function fnSize(){
+                doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/320+'px';
+            }
+            fnSize();
+            win.addEventListener('resize',fnSize,false);
+        })(window,document);
+
+        function pushHistory() {
+            var state = {
+                title: "title",
+                url: "#"
+            };
+            window.history.pushState(state, "title", "#");
+        };
+        pushHistory();
+        var bool=false;
+        setTimeout(function(){
+            bool=true;
+        },1500);
+        window.addEventListener("popstate", function(e) {
+            if(bool)
+            {
+
+            }
+            pushHistory();
+
+        }, false);
+
+
+// 卫生间代码
+
+  $('.qk_click').click(function(){
+    $('.qk_cap').css('-webkit-transform','rotate(45deg)');
+    $('.qk_fog').css({'opacity':1,'transition':'2s'});
+
+  })
+  $('.qk_rclick').click(function(){
+    $('.qk_gif').css('display','block');
+
+    var o_audio=$('.qk_audio')[0];
+
+    o_audio.play();
+  })
+    })
+</script>
+<!-- 代码部分end -->
+</body>
+</html>

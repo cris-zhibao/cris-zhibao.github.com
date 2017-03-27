@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>丽枫酒店</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/alert.css">
+</head>
+<body>
+
+<div class="lxq_bigbox">
+
+    <!--太棒了-->
+    <div class="lxq_box veryGood">
+        <div class="lxq_close"></div>
+        <div class="lxq_good"></div>
+        <div class="qualified"></div>
+        <a class="lxq_p3_font lxq_seeAll"  href="javascript:;"></a>
+    </div>
+
+    <!--太可惜，没抽到奖-->
+    <div class="lxq_box noPrize" >
+        <div class="lxq_close"></div>
+        <div class="lxq_unfortunately"></div>
+        <div class="lxq_noWinning"></div>
+        <a class="lxq_p2_font no_Prize"  href="javascript:;"></a>
+        <a class="lxq_p3_font lxq_seeAll"   href="javascript:;"></a>
+    </div>
+
+    <!--太可惜了已抽过奖-->
+    <div class="lxq_box lxq_show">
+        <div class="lxq_close"></div>
+        <div class="lxq_unfortunately"></div>
+        <div class="lxq_p_font"></div>
+        <a class="lxq_p2_font to_congratulation"></a>
+        <a class="lxq_p3_font lxq_seeAll"   href="javascript:;"></a>
+    </div>
+
+  <!--查看所有线索-->
+    <div class="lxq_box lxq_hide">
+        <div class="lxq_close"></div>
+        <div class="lxq_allClue"></div>
+        <div class="separator"></div>
+
+        <ul class="prize_box clearfix">
+            <li class="lxq_prize"><img src="../img/images/pic_1.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_2.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_3.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_4.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_5.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_6.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_7.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_8.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_9.jpg" alt=""></li>
+            <li class="lxq_prize"><img src="../img/images/pic_0.jpg" alt=""></li>
+        </ul>
+        <a class="lxq_luck_draw"  href="javascript:;" id="ldBtn"></a>
+    </div>
+
+
+<!--恭喜你-->
+    <div class="qk_box">
+
+        <p class="qk_conP">
+            您获得了丽枫酒店送出的<span>Iphone7 P<span>，填写个人资料，我
+            们将活动结束后给您寄出！
+        </p>
+
+        <p class="sec_qk_conP">
+            您获得丽枫酒店送出的代金券10元，填写个人资料，我们将活动结束后发往您的铂涛帐户！
+        </p>
+
+        <div class="r_flower">
+            <img src="../img/r_flower.png">
+        </div>
+
+        <div class="l_flower">
+            <img src="../img/l_flower.png">
+        </div>
+
+
+        <div class="qk_main">
+            <form action="">
+                <input type="text" name="name" >
+                <input type="text" name="telephone">
+                <input type="text" name="address">
+            </form>
+        </div>
+
+        <div class="qk_bottom">
+            <a href="javascript:;"  class='confirm_button' ></a>
+        </div>
+    </div>
+
+
+<!--结束页面-->
+
+    <div class="v_tail">
+
+
+
+        <img src="../img/v_size2.png" class="v_picture2"/>
+        <img src="../img/v_size.png" class="v_picture3"/>
+        <img src="../img/v_flower1.png" class="v_picture4"/>
+
+        <img src="../img/v_size3.png" class="v_picture5"/>
+        <img src="../img/v_vertical.png" class="v_picture6"/>
+        <img src="../img/v_size4.png" class="v_picture7"/>
+
+        <img src="../img/v_flower3.png" class="v_flower_1"/>
+
+    </div>
+
+</div>
+
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/alert.js"></script>
+<script src="../js/getDate.js"></script>
+<script>
+    ;(function(win,doc){
+    function fnSize(){
+    doc.documentElement.style.fontSize=20*doc.documentElement.clientWidth/320+'px';
+    }
+    fnSize();
+    win.addEventListener('resize',fnSize,false);
+    })(window,document);
+</script>
+
+</body>
+</html>

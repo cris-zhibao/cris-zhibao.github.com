@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var sourceArr=[
+			'sdc_hua1',
+			'sdc_hua2',
+			'sdc_home',
+			'base',
+			'bgc',
+			'congratulation',
+			'sdc_logo',
+			'sdc_wen1',
+			'sdc_wen2',
+			'sdc_wen3',
+			'go',
+			'biao',
+			'biap',
+			'6',
+		];
+
+		var iCount=0;
+		for(var i=0; i<sourceArr.length;i++){
+			var oImg=new Image();
+			oImg.src='img/'+sourceArr[i]+'.png';
+			oImg.onload=function(){
+				iCount++;
+				var scale=iCount/sourceArr.length;
+				document.body.innerHTML=scale*100+'%';
+
+				if(scale==1){
+					alert('加载完毕');
+				}
+			}
+		}
+	</script>
+</body>
+</html>

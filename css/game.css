@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html{
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+.pinch-zoom{
+    width: 420%;
+    height: 100%;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+}
+.pinch-zoom .ch_img{
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -ms-user-drag: none;
+    user-drag: none;
+}
+.pinch-zoom .ch_img{
+    position: relative;
+    background-image: url("../img/t0.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform-origin:28.3%;
+
+}
+.ch_kq{
+    position: absolute;
+    bottom: 15.8%;
+    left:8%;
+    width: 3.2%;
+    height: 10%;
+    z-index: 9;
+
+}
+.ch_music{
+    position: absolute;
+    bottom: 35.8%;
+    left:2%;
+    width: 9%;
+    height: 30%;
+}
+.bd2{
+    position: absolute;
+    bottom: 49.5%;
+    right:50.5%;
+    width: 2%;
+    height:6%;
+    z-index: 4;
+    /*background-color: red;*/
+
+}
+.bd2 .ch_lame{
+    width: 350%;
+    height: 260%;
+    display: none;
+    transition: 1s linear all;
+    position: absolute;
+    top: -80%;
+    left:-100%;
+    background: url("../img/9.png")no-repeat 0 0;
+    background-size: 100% 100%;
+
+}
+.bd{
+    position: absolute;
+    bottom: 44.8%;
+    right:24%;
+    width: 2.4%;
+    height: 10%;
+    z-index: 3;
+    /*background-color: red;*/
+}
+.bd .ch_lame{
+    width: 550%;
+    height: 280%;
+    display: none;
+    transition: 1s linear all;
+    position: absolute;
+    top: -80%;
+    left:-220%;
+    background: url("../img/11.png")no-repeat 0 0;
+    background-size: 100% 100%;
+
+}
+.ch_kq .ch_btn1{
+     width: 600%;
+    height: 300%;
+    display: none;
+    transition: 1s linear all;
+    position: absolute;
+    top: -340%;
+    left:-314%;
+    background: url("../img/7.png")no-repeat 0 0;
+    background-size: 100% 100%;
+
+}
+
+.ch_td{
+
+    position: absolute;
+    bottom: 54.6%;
+    right:60%;
+    width: 4.3%;
+    height:6.3%;
+    z-index: 2;
+
+
+}
+.ch_td .ch_lame{
+    width: 240%;
+    height: 260%;
+    display:none;
+    transition: 1s linear all;
+    position: absolute;
+    top:54%;
+    left:-104%;
+    background: url("../img/10.png")no-repeat 0 0;
+    background-size: 100% 100%;
+
+}
+.ch_td2{
+    position: absolute;
+    bottom: 39%;
+    left:18%;
+    width: 3%;
+    height:2%;
+    z-index: 1;
+
+}
+.ch_td2 .ch_lame {
+    width: 186%;
+    height: 425%;
+    display: none;
+    position: absolute;
+    top: -450%;
+    left: 50%;
+    background: url(../img/8.png)no-repeat 0 0;
+    background-size: 100% 100%;
+    transform: rotate(-5deg);
+
+}
+.ch_kq2{
+    position: absolute;
+    bottom: 3%;
+    left: 17%;
+    width: 4%;
+    height: 5%;
+    z-index: 10;
+
+}
+.ch_cl img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ch_cl{
+    display: block;
+    position: absolute;
+    top: 26%;
+    left: 20%;
+    width: 21%;
+    height: 41%;
+    z-index: 0;
+}
+.ch_cl_btn{
+    position: absolute;
+    bottom: 29.8%;
+    right: 27.5%;
+    width: 1.4%;
+    height: 4%;
+    z-index: 3;
+}
+.ch_ms_btn{
+    position: absolute;
+    bottom:36.8%;
+    right: 27.5%;
+    width: 1.4%;
+    height: 4%;
+    z-index: 3;
+}
+.ch_my{
+    position: absolute;
+    bottom: 25.8%;
+    right: 52%;
+    width: 7.4%;
+    height: 12%;
+    z-index: 5;
+
+
+}
+.ch_my .ch_btn1 {
+    width: 145%;
+    height: 272%;
+    display: none;
+    -webkit-transition: 2s;
+    position: absolute;
+    top: -17%;
+    left: -53%;
+    background: url(../img/maoyi.png)no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.ch_cd{
+    position: absolute;
+    bottom: 5.8%;
+    right: 54%;
+    width: 7.4%;
+    height: 12%;
+    z-index: 3;
+
+}
+.ch_cd .ch_btn1 {
+    width: 162%;
+    height: 237%;
+    display: block;
+    /* transition: 2s; */
+    position: absolute;
+    top: -91%;
+    left: -51%;
+    z-index: 1;
+    /*background: url(../img/v_bed.png)no-repeat 0 0;*/
+    background-size: 100% 100%;
+}
+.ch_audio{
+    position: absolute;
+    bottom: 26.8%;
+    right: 22.5%;
+    width: 2.4%;
+    height: 5%;
+    z-index: 3;
+}
+
+.btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.ch_kq2 .ch_btn1 {
+    width: 195%;
+    height: 483%;
+    display: none;
+    transition: 2s;
+    position: absolute;
+    top: -450%;
+    left: -23%;
+    background: url(../img/Leaf.png)no-repeat 0 0;
+    background-size: 100% 100%;
+    /* transform: rotate(-5deg); */
+}
+.ch_tv{
+    position: absolute;
+    bottom: 35.8%;
+    left:2%;
+    width: 9%;
+    height: 30%;
+    z-index: 0;
+
+
+}
+.ch_tv .ch_lame{
+    width: 482%;
+    height: 350%;
+    display: none;
+    /* transition: 1s linear all; */
+    position: absolute;
+    top: -54%;
+    left: -19%;
+    background: url(../img/tv_shadow.png)no-repeat 0 0;
+    background-size: 100% 100%;
+    transform: rotate(1deg);
+
+}
+
+.pinch-zoom-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+div.page{
+    width:100%;
+    height:100%;
+
+    max-width:16rem;
+    text-align: left;
+}
+.qk_door{
+    width: 12%;
+    height: 12%;
+    /* background-color: #000; */
+    position: absolute;
+    top: 60%;
+    right: -265%;
+
+}
+
+
+/* 卫生间代码 */
+div{-webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+.big_box{
+    height:100%;
+    width: 200%;
+    background: url('../img/toliet.png') no-repeat  center;
+    background-size: 100% 100%;
+    position: relative;
+    display: none;
+    opacity: 0;
+    transition: 2s;
+}   
+.qk_gapbox{
+    position: absolute;
+    top: 45.8%;
+    left: 20.19%;
+    
+}
+.qk_cap {
+    width: 0.56rem;
+    height: 0.2rem;
+    transform-origin: right bottom;  
+    z-index: 3;
+}
+
+.qk_click{
+    width: 0.8rem;
+    height: 3.3rem;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+.qk_fog{
+    width: 15%;
+    height: 19%;
+    position: absolute;
+    top: 27%;
+    left: 12.5%;
+    opacity: 0;
+    z-index: 1   
+}
+
+.qk_rclick{
+    width: 2rem;
+    height: 9rem;
+    /* background: red; */
+    position: absolute;
+    top: 45%;
+    right: 27%;
+    z-index: 6;
+}
+
+.qk_gif{
+    height: 19rem;
+    width: 5rem;
+    position: absolute;
+    top: 8%;
+    right: 36%;
+    display: none;
+}
+
+.qk_back{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #2A2A2A;
+    font-size: 0.6rem;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    -webkit-animation: move 2s infinite;
+}
+
+@-webkit-keyframes move {
+    from {
+        left: 7%; 
+    }
+
+    to {
+        left: 4%; 
+    }
+}

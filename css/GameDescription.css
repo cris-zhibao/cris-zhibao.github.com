@@ -1,0 +1,60 @@
+.agree{ display: none; }
+
+html,body{
+    height: 100%;
+}
+.Explain_box{
+    position: relative;
+    width: 16rem;
+    height: 100%;
+    background: url("../img/base.png")no-repeat;
+    background-size: 100% 100%;
+}
+
+.contet_d{
+    width: 14.5rem;
+    height:74%;
+    left: 0.95rem;
+    top:12%;
+    position: absolute;
+    font-size: 0.6rem;
+    overflow: scroll;
+}
+.Game{
+    width:  14.2rem;
+    height:25rem;
+    opacity:1;
+    font-size: 0.42rem;
+
+
+}
+.Game_text{
+    width:99%;
+    font-family: 黑体;
+    line-height: 0.6rem;
+
+
+}
+.Game_text .title_span{
+    font-weight: bold;
+}
+.matop{
+    margin-top: 0.675rem;
+}
+.Return_left{
+
+    position: absolute;
+    bottom: 1.025rem;
+    width: 4.825rem;
+    height: 1.125rem;
+    left: -6.65rem;
+}
+.Run_right{
+
+    position: absolute;
+    bottom: 1.025rem;
+
+    width: 4.825rem;
+    height: 1.125rem;
+    right:-6.65rem;
+}

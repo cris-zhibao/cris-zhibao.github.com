@@ -1,0 +1,374 @@
+html,body{
+    width:100%;
+    height:100%;
+    background:#ccceee;
+}
+
+.lxq_bigbox{
+    width:100%;
+    height:100%;
+}
+.lxq_box{
+    width:12.05rem;
+    height:15.25rem;
+    background:url("../img/bgc.png") center center no-repeat;
+    background-size:100% 100%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-6.025rem;
+    margin-top:-7.625rem;
+
+}
+.lxq_box .lxq_unfortunately{
+    width:6.775rem;
+    height:1.375rem;
+    background:url("../img/pity.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:2.25rem  auto 1.25rem auto;
+}
+
+.lxq_box .lxq_close{
+    width:2.325rem;
+    height:1.95rem;
+    background:url("../img/close.png")center center no-repeat;
+    background-size:100% 100%;
+    position:absolute;
+    right:-0.5rem;
+    top:-0.5rem;
+
+}
+.lxq_box .lxq_p_font{
+    width:6.675rem;
+    height:3.328rem;
+    background:url("../img/sdfg_03.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto 1.95rem auto;
+
+}
+.lxq_box .lxq_p2_font{
+    width:4.45rem;
+    height:0.9rem;
+    display:block;
+    background:url("../img/444dfgwe_03.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto 0.65rem auto;
+}
+/*.lxq_box .lxq_p3_font{
+    width:6.05rem;
+    height:1rem;
+
+}*/
+.lxq_box .lxq_p3_font{
+    width:6.05rem;
+    height:1rem;
+    display:block;
+    background:url("../img/fgdfd_07.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto;
+}
+
+/*alert2*/
+
+.lxq_box .lxq_noWinning{
+    width:7rem;
+    height:4.65rem;
+    display:block;
+    background:url("../img/fdf2_03.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto 1.15rem auto;
+}
+
+
+
+
+
+/*alert3*/
+
+.lxq_box .lxq_good{
+    width:5.5rem;
+    height:1.625rem;
+    background:url("../img/tbl.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:2.25rem  auto 1.25rem auto;
+
+}
+.lxq_box .qualified{
+    width:8.2rem;
+    height:2.225rem;
+    background:url("../img/xfgd_03.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0 auto 3.05rem auto;
+}
+/*alert4*/
+
+.lxq_box .lxq_allClue{
+   width:6.75rem;
+    height:1rem;
+    background:url("../img/all_online.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:0.75rem auto 0.4rem auto;
+
+}
+
+.lxq_box .separator{
+    width:6.75rem;
+    height:0.175rem;
+    background:url("../img/separstor.png")center center no-repeat;
+    background-size:100% 100% ;
+    margin:0 auto 1.65rem auto;
+}
+
+.lxq_box .lxq_prize{
+    width:1.8rem;
+    height:1.8rem;
+    background: #aa89be;
+    border-radius: 50%;
+    border:2px solid white;
+    z-index:10;
+    float:left;
+    margin: 0.35rem 0.17rem;
+}
+.lxq_prize img{
+    width:1.8rem ;
+    height:1.8rem;
+    border-radius: 50%;
+}
+
+
+
+.lxq_box .lxq_luck_draw{
+    width:4.45rem;
+    height:0.9rem;
+    display:block;
+    background:url("../img/444dfgwe_03.png")center center no-repeat;
+    background-size:100% 100%;
+    margin:2rem auto;
+}
+
+ul li{
+   opacity: 0;
+}
+
+/*恭喜页面*/
+.qk_box {
+    height:28.5rem;
+    width: 100%;
+    background: url('../img/congratulation.png') no-repeat  center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.qk_conP {
+    text-align: center;
+    width: 12.5rem;
+    margin: 0 auto;
+    font-size: 0.56rem;
+    color: #1b1b1b;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    padding-left: 0.2rem;
+    line-height: 190%;
+}
+
+
+
+
+.sec_qk_conP{
+    text-align: center;
+    width: 12.5rem;
+    margin: 0 auto;
+    font-size: 0.56rem;
+    color: #1b1b1b;
+    font-weight: bold;
+    margin: 0 auto;
+    position: absolute;
+    top: 36%;
+    left: 10%;
+    padding-left: 0.2rem;
+    line-height: 190%;
+
+}
+
+
+.r_flower{
+    position: absolute;
+    top:45%;
+    right: -40%;
+    /*transition: 2s all ease-out;*/
+}
+
+
+.r_flower img{
+    width: 6.17rem;
+    height: 5rem;
+}
+
+
+
+.l_flower{
+    position: absolute;
+    top:74%;
+    left:-40%;
+    /*transition: 2s all ease-out;*/
+}
+
+
+
+.l_flower img{
+    width: 6.17rem;
+    height: 5rem;
+
+}
+
+.qk_main input:nth-child(1){
+    width: 6.6rem;
+    height: 1.09rem;
+    position: absolute;
+    top: 52.7%;
+    left: 36%;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.qk_main input:nth-child(2){
+    width: 6.6rem;
+    height: 1.09rem;
+    position: absolute;
+    top: 61%;
+    left: 36%;
+    padding-left: 0.2rem;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.qk_main input:nth-child(3){
+    width: 6.6rem;
+    height: 1.09rem;
+    position: absolute;
+    top: 69%;
+    left: 36%;
+    border: none;
+    outline: none;
+    padding-left: 0.2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.qk_bottom .confirm_button{
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    width: 3.25rem;
+    height: 1rem;
+    outline: none;
+    border: none;
+    margin-left: -1.1rem;
+    background: rgba(0, 0, 0, 0);
+
+}
+.confirm_button a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+}
+
+/*结束页面*/
+
+.v_tail {
+    width: 100%;
+    height: 100%;
+    background: url("../img/v_back_2.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+.v_tail .v_picture2 {
+    width: 12.4rem;
+    height: 2.3rem;
+    position: absolute;
+    left: 14.6rem;
+    top: 8rem; }
+.v_tail .v_picture3 {
+    width: 15rem;
+    height: 2.05rem;
+    position: absolute;
+    left: -15rem;
+    top: 10.2rem; }
+.v_tail .v_picture4 {
+    width: 4.5rem;
+    height: 1.05rem;
+    opacity: 0;
+    position: absolute;
+    left: 6rem;
+    top: 12.2rem; }
+.v_tail .v_picture5 {
+    width: 2.5rem;
+    height: 6.45rem;
+    position: absolute;
+    left: 2rem;
+    top: 13rem;
+    opacity: 0; }
+.v_tail .v_picture6 {
+    width: 0.1rem;
+    height: 3.25rem;
+    position: absolute;
+    left: 5.7rem;
+    top: 15rem; }
+.v_tail .v_picture7 {
+    width: 7rem;
+    height: 5.5rem;
+    margin-top: 1rem;
+    position: absolute;
+    left: 6.4rem;
+    top: 16.4rem;
+    opacity: 0; }
+.v_tail .v_flower_1 {
+    width: 2.2rem;
+    height: 4.55rem;
+    position: absolute;
+    left: -2.2rem;
+    top: 9rem; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*太棒了very_Good*/
+.veryGood{
+    display:block;
+}
+
+/*太可惜了，未中奖*/
+.noPrize{
+    display:none;
+}
+
+/*已抽过奖了*/
+.lxq_show{
+    display:none;
+}
+/*所有线索*/
+.lxq_hide{
+    display:none;
+}
+.qk_box{
+    display:none;
+}
+.v_tail{
+    display:none;
+}

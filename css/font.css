@@ -1,0 +1,82 @@
+@-webkit-keyframes text {
+     0%{opacity:0}
+    20%{opacity: 1}
+    80%{opacity: 1}
+    100%{opacity:0}
+}
+
+.fontshadow{
+    position: absolute;
+    font-size:30px;
+    font-weight: 600;
+    font-family: "楷体";
+    -webkit-animation: 10s text linear;
+}
+
+.lxq_ElectricCurtains{
+    color: #b15d31;
+    -webkit-text-shadow: 2px 2px 2px #ffb837;
+    position: absolute;
+    left: -12%;
+    top: -910%;
+    width: 800%;
+    opacity: 0;
+}
+.lxq_LightingMode{
+    position: absolute;
+    left: 1%;
+    top: -877%;
+    width: 800%;
+    color: #ff3c1d;
+    -webkit-text-shadow: 1px 2px 2px #ed999e;
+    opacity: 0;
+}
+.lxq_AirCleaner{
+    color: #2f76ff;
+    -webkit-text-shadow: 1px 2px 2px #90ff98;
+    position: absolute;
+    left: 124%;
+    top: -365%;
+    width: 357%;
+    opacity: 0;
+}
+.lxq_Aromatherapy{
+    position: absolute;
+    left: 124%;
+    top: -105%;
+    width: 391%;
+    color: #ff42b9;
+    opacity: 0;
+    -webkit-text-shadow: 1px 2px 2px #ff7f91;
+}
+.lxq_Bluetooth{
+    color: #2f49ff;
+    -webkit-text-shadow: 1px 2px 2px #7c72ff;
+}
+.lxq_music{
+    color: #ff7f91;
+    -webkit-text-shadow: 1px 2px 2px #f987ff;
+    opacity: 0;
+    width: 400%;
+    height: 200%;
+    top: -976%;
+    left: -170%;
+}
+.lxq_mattress{
+    color: #7672ff;
+    -webkit-text-shadow: 1px 2px 2px #ff9237;
+    position: absolute;
+    left: 0;
+    top: -288%;
+    width: 241%;
+    opacity: 0;
+}
+.lxq_T-shirts{
+    color: #ff2f36;
+    -webkit-text-shadow: 1px 2px 2px #90ff98;
+    position: absolute;
+    left: -10%;
+    top: -110%;
+    width: 233%;
+    opacity: 0;
+}
